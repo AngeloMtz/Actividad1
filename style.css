@@ -1,0 +1,78 @@
+* {
+    font-family: arial;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(/Proyecto/recursos/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+form label {
+    padding: 10px;
+    margin: 10px;
+}
+.input-label{
+    text-transform: uppercase;
+}
+.form-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 1em;
+}
+.form-section {
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    background:  linear-gradient(rgb(64, 111, 146), rgb(62, 149, 196));
+}
+
+.form-section h2 {
+    margin-bottom: 1em;
+}
+
+.registro-form {
+    flex-direction: column;
+    text-align: center;
+}
+.registro-form legend{
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.registro-form label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.registro-form input,
+.registro-form select,
+.registro-form button {
+    margin-bottom: 1em;
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.registro-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registro-form button:hover {
+    background-color: #575757;
+}
